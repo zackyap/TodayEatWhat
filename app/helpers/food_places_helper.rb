@@ -1,0 +1,2 @@
+module FoodPlacesHelper
+end
