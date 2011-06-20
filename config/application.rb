@@ -8,6 +8,7 @@ Bundler.require(:default, Rails.env) if defined?(Bundler)
 
 module TodayEatWhat
   class Application < Rails::Application
+    include Rake::DSL
     config.generators do |g|
       g.test_framework :rspec
     end

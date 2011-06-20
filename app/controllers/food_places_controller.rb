@@ -9,8 +9,9 @@ class FoodPlacesController < ApplicationController
 
   def show
     # @place = FoodPlace.find(:first, :offset => rand(FoodPlace.count :all))
-    @place = FoodPlace.random.place
-    @disgust_text = FoodPlace.random.disgust_text
+    @random_place = FoodPlace.random
+    @place = @random_place.place
+    @disgust_text = @random_place.disgust_text
   end
 
 # private
