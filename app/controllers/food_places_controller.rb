@@ -4,7 +4,7 @@ class FoodPlacesController < ApplicationController
   def index
     # @food_place = FoodPlace.find(:id => rand(FoodPlace.find(:all).count))
     # @place = @food_places[rand(@food_places.count)]
-        @place = FoodPlace.first
+  
   end
 
   def show
