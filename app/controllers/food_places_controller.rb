@@ -1,5 +1,5 @@
 class FoodPlacesController < ApplicationController
-  before_filter :all_places
+  before_filter :random_place
 
   def index
 
