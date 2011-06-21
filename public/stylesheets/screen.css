@@ -26,10 +26,10 @@ a img {border:none;}
 
 /* typography.css */
 html {font-size:100.01%;}
-body {font-size:75%;color:#222;background:#fff;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;}
+body {font-size:75%;color:#222;background:#F5DEB3;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;}
 h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#111;}
-h1 {font-size:4em;line-height:2;margin-top:2em;margin-bottom:2em;}
-h2 {font-size:2.5em;margin-top:2em;margin-bottom:2em;}
+h1 {font-family: 'Permanent Marker', arial, serif;font-size:4em;line-height:1.5;margin-top:1em;margin-bottom:1em;}
+h2 {font-size:2.5em;margin-top:1em;margin-bottom:1em;}
 h3 {font-size:1.5em;line-height:1;margin-bottom:1em;}
 h4 {font-size:1.2em;line-height:1.25;margin-bottom:1.25em;}
 h5 {font-size:1em;font-weight:bold;margin-bottom:1.5em;}
@@ -263,3 +263,30 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 .clearfix:after, .container:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
 .clearfix, .container {display:block;}
 .clear {clear:both;}
+
+
+header {
+  text-align: left;
+  margin-left: 50px;
+}
+
+header a {
+  font-family: 'Slackey', arial, serif;
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  margin: 0 50px;
+}
+
+#foodplace {
+  font-size: 150%;
+  font-family: 'Special Elite', arial, serif;
+  color: red;
+}
+
+footer p, footer a{
+  font-family: 'Slackey', arial, serif;
+}

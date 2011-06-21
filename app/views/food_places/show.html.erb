@@ -1,7 +1,13 @@
-  <h2><%= title %></h2>
+<header>
+  <h2><%= link_to title, root_path %></h2>
+</header>
 
-  <h1>We are going to fucking <%= @place %> for lunch today!</h1>
+<section>
+  <h1>We are going to fucking <div id="foodplace"><%= @place %></div> for lunch today!</h1>
+</section>
 
+<footer>
   <p><%= @disgust_text %></p>
 
-<%= link_to "I want to fucking eat something else!", root_path %>
+  <%= link_to "I want to fucking eat something else!", root_path %>
+</footer>
