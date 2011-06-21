@@ -1,5 +1,5 @@
 class FoodPlace < ActiveRecord::Base
-	attr_accessor :place, :disgust_text
+	# attr_accessor :place, :disgust_text
 
   def self.random
 
